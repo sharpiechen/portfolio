@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
+.navbar__container {
+  height: 100px;
+  background-color: #fff;
+}
+.navbar__name {
+  padding-top: 50px;
+  font-size: 45px;
+  color: #333;
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.navbar__tagline,
+.navbar__location,
+.navbar__contact {
+  font-weight: 400;
+  font-size: 14px;
+  color: #aaa;
+  padding-top: 15px;
+  letter-spacing: 1px;
+}
+.navbar__tagline {
+  text-align: center;
+}
+.navbar__location {
+  text-align: left;
+}
+.navbar__contact {
+  text-align: right;
+}
+.navbar__link {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #aaa;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.work__row {
+  margin-top: 50px;
+}
+.work__card__wrapper {
+  width: 100%;
+  height: 350px;
+  padding: 15px 0px;
+}
+img {
+  width: 100%;
+}
+.footer__row {
+  margin-top: 100px;
+  border-top: 1px solid #ccc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer__contents {
+  text-align: center;
+}
