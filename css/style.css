@@ -1,60 +1,98 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
-.navbar__container {
-  height: 100px;
-  background-color: #fff;
+.text__header,
+.text__body {
+  font-family: Roboto;
+  font-weight: 300;
+  letter-spacing: 1.5px;
 }
-.navbar__name {
-  padding-top: 50px;
-  font-size: 45px;
+.text__header {
+  font-size: 18px;
+  color: #666;
+}
+.text__header a {
+  color: #666;
+}
+.text__header:hover {
+  text-decoration: none;
+  transition: all 0.3s ease;
   color: #333;
-  font-family: "Arimo", sans-serif;
-  font-weight: 600;
-  text-align: center;
 }
-.navbar__tagline,
-.navbar__location,
-.navbar__contact {
-  font-weight: 400;
+.text__body {
   font-size: 14px;
-  color: #aaa;
-  padding-top: 15px;
-  letter-spacing: 1px;
+  line-height: 24px;
+  color: #999;
 }
-.navbar__tagline {
-  text-align: center;
+.text__body a {
+  color: #999;
 }
-.navbar__location {
-  text-align: left;
+.text__social {
+  margin-top: 15px;
 }
-.navbar__contact {
-  text-align: right;
-}
-.navbar__link {
-  font-weight: 400;
-  text-transform: uppercase;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: #aaa;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-.work__row {
+.header__container {
   margin-top: 50px;
 }
-.work__card__wrapper {
-  width: 100%;
-  height: 350px;
-  padding: 15px 0px;
-}
-img {
-  width: 100%;
-}
-.footer__row {
+.section__container {
   margin-top: 100px;
-  border-top: 1px solid #ccc;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
-.footer__contents {
-  text-align: center;
+.footer__container {
+  margin-bottom: 100px;
+}
+.section__container--2col-left {
+  padding-right: 30px;
+}
+.section__container--2col-right {
+  padding-left: 30px;
+}
+.header__border--bottom {
+  height: 1px;
+  width: 30px;
+  background-color: #ddd;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.work__container {
+  position: relative;
+}
+.work__container:hover .work {
+  opacity: 0.1;
+  transition: all 0.3s ease;
+}
+.work__container:hover .work__overlay,
+.work__container:hover .text__overlay {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.work__overlay {
+  background-color: #eee;
+  opacity: -2;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+.work {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+}
+.text__overlay {
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  margin: 50px;
+}
+.work__caption--mobile {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .section__container {
+    margin-top: 50px;
+  }
+  .section__container--2col-left,
+  .section__container--2col-right {
+    padding: 15px;
+  }
+  .section__container--2col-right {
+    padding-top: 50px;
+  }
 }
