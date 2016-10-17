@@ -2,6 +2,7 @@
 layout: post
 title: Seelio Animation
 category: Design
+cover: /assets/img-work-2.png
 
 excerpt: Quick overview on how to post code snippets using Liquid tags and how to escape or not escape markdown and HTML in your blog entries. 
 
