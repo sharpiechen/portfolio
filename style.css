@@ -94,6 +94,14 @@
 .work__caption--mobile {
   margin-bottom: 30px;
 }
+.work__img {
+  max-width:80%;
+  border:1px solid #ddd;
+  display:block;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+|
 @media (max-width: 768px) {
   .section__container {
     margin-top: 50px;
