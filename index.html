@@ -43,7 +43,7 @@ title: Home
                 {% for post in site.posts limit: 2 %}
                     <div class="col-sm-6 col-xs-12"><a href="{{site.baseurl}}{{post.url}}" class="work__container">
                         <div class="text__overlay hidden-xs">
-                            <div class="text__header">{{ post.title }}</div>
+                            <div class="text__header">{{ post.description }}</div>
                             <div class="header__border--bottom"></div>
                             <div class="text__body">{{ post.excerpt }}<br/><br/>{{ post.categories | category_links }}</div>
                         </div><img src="https://cloud.githubusercontent.com/assets/21296744/18262665/4f117bfe-73c9-11e6-8887-a9c924df2d61.png" class="work"/></a>
