@@ -14,7 +14,7 @@
 .text__header a {
   color: #666;
 }
-.text__header a:hover {
+.text__header:hover {
   text-decoration: none;
   transition: all 0.3s ease;
   color: #333;
@@ -27,7 +27,7 @@
 .text__body a {
   color: #999;
 }
-.text__body:hover {
+.text__body a:hover {
   color: #999;
   transition: all 0.3s ease;
 }
