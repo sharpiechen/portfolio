@@ -10,8 +10,4 @@ excerpt: Infographics are cool!
 
 ---
 
-If you want to create a guest post that will appear as if written by another author, simply add an `author` attribute to the 
-YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page 
-as well as on the individual post pages.
-
 <img style="max-width:80%;border:1px solid #ddd;display:inline-block;text-align:center;" src="http://www.peterysk.com/uploads/4/7/0/9/4709579/3467809_orig.png"></img>
