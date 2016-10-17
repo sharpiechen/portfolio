@@ -31,50 +31,10 @@ layout: default
 	    </div>
     </div>
 </div>
-<div class="container_fluid">
+<div class="container_fluid footer__section">
     <div class="row section__container">
 	<div class="col-xs-10 col-sm-offset-1 ">
     		<a href="{{site.baseurl}}/" class="text__header"> &larr;&nbsp;Back to home </a>
 	</div>
     </div>
 </div>
-<div class="container_fluid">
-    <div class="row section__container footer__container">
-        <div class="col-xs-10 col-xs-offset-1">
-            <div class="text__header">Selected works</div>
-            <div class="header__border--bottom"></div>
-            <div class="row">
-                {% for post in site.posts limit: 2 %}
-                    <div class="col-sm-6 col-xs-12"><a href="{{site.baseurl}}{{post.url}}" class="work__container">
-                        <div class="text__overlay hidden-xs">
-                            <div class="text__header">{{ post.title }}</div>
-                            <div class="header__border--bottom"></div>
-                            <div class="text__body">{{ post.excerpt }}<br/><br/>{{ post.categories | category_links }}</div>
-                        </div><img src="{{site.baseurl}}{{post.cover}}" class="work"/></a>
-                        <div class="work__caption--mobile visible-xs">
-                            <div class="text__header">{{ post.title }}</div>
-                            <div class="header__border--bottom"></div>
-                            <div class="text__body">{{ post.excerpt }}<br/><br/>{{ post.categories | category_links }}</div>
-                        </div>
-                    </div>
-                {% endfor %}
-                {% for post in site.posts limit: 2 offset: 2 %}
-                    <div class="col-sm-6 col-xs-12"><a href="{{site.baseurl}}{{post.url}}" class="work__container">
-                        <div class="text__overlay hidden-xs">
-                          <div class="text__header">{{ post.title }}</div>
-                          <div class="header__border--bottom"></div>
-                          <div class="text__body">{{ post.excerpt }}<br/><br/>{{ post.categories | category_links }}</div>
-                        </div><img src="{{site.baseurl}}{{post.cover}}" class="work"/></a>
-                        <div class="work__caption--mobile visible-xs">
-                            <div class="text__header">{{ post.title }}</div>
-                            <div class="header__border--bottom"></div>
-                            <div class="text__body">{{ post.excerpt }}<br/><br/>{{ post.categories | category_links }}</div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-
-
