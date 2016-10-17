@@ -10,8 +10,6 @@ excerpt: A complete rebranding of the University of Chicago's Booth School of Bu
 
 ---
 
-If you want to create a guest post that will appear as if written by another author, simply add an `author` attribute to the 
-YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page 
-as well as on the individual post pages.
-
 <img class="work__img" src="{{site.baseurl}}/assets/img-work-1.png"></img>
+
+Here is a pretty pretty photo. 
