@@ -47,9 +47,7 @@ title: Home
                             <div class="header__border--bottom"></div>
                             <div class="text__body">{{ post.excerpt }}<br/><br/>{{ post.categories | category_links }}</div>
                         </div>
-                        {% assign image = post.images[0] %}
-                        {% include image.html image=image %}
-                        <img src="{{ site.baseurl }}{{ include.image.url }}" class="work"/></a>
+                        <img src="{{ post.cover }}" class="work"/></a>
                         <div class="work__caption--mobile visible-xs">
                             <div class="text__header">{{ post.title }}</div>
                             <div class="header__border--bottom"></div>
