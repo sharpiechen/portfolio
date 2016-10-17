@@ -14,4 +14,4 @@ If you want to create a guest post that will appear as if written by another aut
 YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page 
 as well as on the individual post pages.
 
-<img style="max-width:80%;border:1px solid #ddd;display:block;margin:auto;margin-top:20px;margin-bottom:20px;" src="{{site.baseurl}}/assets/img-work-1.png"></img>
+<img class="work__img" src="{{site.baseurl}}/assets/img-work-1.png"></img>
