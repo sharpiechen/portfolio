@@ -19,6 +19,9 @@
   transition: all 0.3s ease;
   color: #333;
 }
+.text__header--right {
+  text-align:right;
+}
 .text__body {
   font-size: 14px;
   line-height: 24px;
