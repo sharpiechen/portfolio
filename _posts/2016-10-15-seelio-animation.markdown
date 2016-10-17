@@ -16,5 +16,5 @@ Method sucker hole huck tele frozen chicken heads, beater air ride euro poaching
 
 Avie liftie beater gnar piste, ripper groomer dope. Snake bite Snowboard air schwag. Taco glove spread eagle giblets bail back country. Dirt sharkbite line drop apres, face plant taco mitt steeps betty travel bomb lid brain bucket. Roadie Skate bomb hole dust on crust stomp schwag Bike death cookies stunt.
 
-<img style="max-width:100%;border:1px solid #ddd;display:block;margin:auto;margin-top:20px;margin-bottom:20px;" src="{{site.baseurl}}/assets/img-work-2.png"></img>
+<img style="max-width:80%;border:1px solid #ddd;display:block;margin:auto;margin-top:20px;margin-bottom:20px;" src="{{site.baseurl}}/assets/img-work-2.png"></img>
 
