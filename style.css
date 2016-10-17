@@ -27,6 +27,10 @@
 .text__body a {
   color: #999;
 }
+.text__body:hover {
+  color: #999;
+  transition: all 0.3s ease;
+}
 .text__social {
   margin-top: 15px;
 }
