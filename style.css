@@ -30,8 +30,8 @@
 .text__body a:hover {
   color: #999;
   text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #ccc;   
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;   
   transition: all 0.3s ease;
 }
 .text__social {
