@@ -14,7 +14,7 @@
 .text__header a {
   color: #666;
 }
-.text__header:hover {
+.text__header:hover, .text__body:hover; {
   text-decoration: none;
   transition: all 0.3s ease;
   color: #333;
@@ -26,10 +26,6 @@
 }
 .text__body a {
   color: #999;
-}
-.text__body:hover {
-  color: #999;
-  transition: all 0.3s ease;
 }
 .text__social {
   margin-top: 15px;
