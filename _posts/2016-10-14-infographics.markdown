@@ -10,4 +10,4 @@ excerpt: Infographics are cool!
 
 ---
 
-<img class="work__img" src="http://www.peterysk.com/uploads/4/7/0/9/4709579/3467809_orig.png"></img>
+<img class="work__img" src="http://www.peterysk.com/uploads/4/7/0/9/4709579/3467809_orig.png">
