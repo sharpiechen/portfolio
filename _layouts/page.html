@@ -36,9 +36,9 @@ layout: default
 	<div class="col-xs-5 col-sm-offset-1 ">
     		<a href="{{site.baseurl}}/" class="text__header"> &larr;&nbsp;Back to home </a>
 	</div>
-	<div class="col-xs-5">
+	<div class="col-xs-5 text__header--right">
 		{% if page.next.url %}
-    		<a href="{{page.next.url}}" class="text__header text__header--right"> Next:&nbsp;{{page.next.title}}&nbsp;&rarr; </a>
+    		<a href="{{page.next.url}}" class="text__header"> Next:&nbsp;{{page.next.title}}&nbsp;&rarr; </a>
 		{% endif %}
 	</div>
     </div>
