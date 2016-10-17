@@ -4,7 +4,7 @@ title: Seelio Animation
 category: Design, Animation
 description: Tell Your Story with Seelio is a short animation created to help viewers understand how Seelio can help students tell their stories to stand out in the modern job search. The video is shown to students of partner universities and can also be found in post-registration welcome emails to all users.
 tools: Adobe Photoshop CS3 
-date: Fall 2014
+timeline: Fall 2014
 
 cover: /assets/img-work-2.png
 
