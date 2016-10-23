@@ -99,6 +99,8 @@
   border:1px solid #ddd;
   display:block;
   margin:auto;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 .work__video {
     text-align:center;
