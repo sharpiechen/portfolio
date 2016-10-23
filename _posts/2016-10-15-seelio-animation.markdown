@@ -13,7 +13,7 @@ excerpt: Tell Your Story with Seelio is a short animation created to help viewer
 ---
 *Seelio is an educational technology company that helps students understand the 21st century skills employers want, communicate how their education relates to those skills in a professional digital identity, and ultimately use that digital identity to connect with employers and find a job.*
 
-<div style="text-align:center; margin-top:50px;margin-bottom:50px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/rj9aCdghEGo" frameborder="0" allowfullscreen></iframe></div>
+<div class="work__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/rj9aCdghEGo" frameborder="0" allowfullscreen></iframe></div>
 
 Bro ipsum dolor sit amet hurl carcass heli McTwist grab shuttle bomb hole freshies euro clipless crank face shots whip glades frozen chicken heads epic. Pow first tracks pow death cookies, bowl bomb hole park taco Whistler. Fully freshies switch, washboard grind titanium schwag rock-ectomy huckfest euro afterbang shred wheels. Beater pow pow Skate, misty over the bars clipless bear trap dust on crust 180 punter grab travel park rat slash scream. Schraeder rock roll face shots acro huck gear jammer Skate yard sale corduroy. Bail trail swag back country Skate free ride. Single track hardtail chain ring, white room gondy fatty pow pow.
 
