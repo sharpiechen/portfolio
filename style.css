@@ -46,11 +46,11 @@
 .footer__container {
   margin-bottom: 100px;
 }
-/* .col-sm-5 .section__container--2col-left {
+.section__container--2col-left {
   padding-right: 30px;
   padding-left: 30px;
 } */
-.col-sm-5 {
+.section__container--2col-right {
   padding-left: 30px;
   padding-right: 30px;
 }
